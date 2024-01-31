@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply min-h-screen select-none bg-purple-50 text-purple-900 antialiased p-safe dark:bg-purple-900 dark:text-purple-50;
+
+	/* PWA enhancements */
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+}
+
+@font-face {
+	font-family: 'Gotham Black Regular';
+	src: url('../fonts/GothamBlack.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Gotham Black Medium';
+	src: url('../fonts/GothamMedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Gotham Black Light';
+	src: url('../fonts/GothamLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Gotham Black Thin';
+	src: url('../fonts/GothamThin.ttf') format('truetype');
+}
